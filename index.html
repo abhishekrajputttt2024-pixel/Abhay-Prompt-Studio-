@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Prompt by Abhay</h1>
+    <p>powered by AI prompts</p>
+  </header>
+
+  <!-- Search Bar -->
+  <input type="text" id="search" placeholder="Search prompts...">
+
+  <!-- Gallery -->
+  <main id="gallery">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="images/img1.jpg" alt="Prompt Image">
+      <div class="content">
+        <h3>#1</h3>
+        <p>"A stylish man standing on rooftop, cinematic shot, ultra realistic"</p>
+        <button onclick="copyPrompt(this)">Copy prompt</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="images/img2.jpg" alt="Prompt Image">
+      <div class="content">
+        <h3>#2</h3>
+        <p>"Two businessmen in futuristic mirror room, sharp suits, fashion editorial"</p>
+        <button onclick="copyPrompt(this)">Copy prompt</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="images/img3.jpg" alt="Prompt Image">
+      <div class="content">
+        <h3>#3</h3>
+        <p>"Man in black coat, standing near wall, dramatic lighting, realistic"</p>
+        <button onclick="copyPrompt(this)">Copy prompt</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
